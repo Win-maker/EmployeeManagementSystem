@@ -18,7 +18,7 @@ const employees: EmployeeType[] = [
 
 const EmployeesView = () => {
   return (
-    <div className="container mx-auto p-4">
+    <div className="container p-4 w-full">
     <DataTable columns={columns} data={employees} />
   </div>
   )

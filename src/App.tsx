@@ -1,12 +1,10 @@
-import EmployeesView from "./moduler/employess/EmployeesView";
+import Wrapper from './components/Wrapper'
 
-// import PostsView from "./moduler/posts/PostsView";
 function App() {
   return (
     <>
 
-    {/* <PostsView/> */}
-    <EmployeesView/>
+    <Wrapper/>
     </>
   );
 
